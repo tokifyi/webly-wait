@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Webly - Create your website with AI in minutes",
-  description: "Build the fastest, AI-native website generator that turns your ideas into fully designed, SEO-ready websites in minutes. No coding required.",
+  description: "Create your website with AI in minutes. Just describe your idea and watch as AI creates a beautiful, professional website in seconds.",
   keywords: ["AI website generator", "website builder", "landing page", "SaaS", "portfolio", "business website", "no-code"],
   authors: [{ name: "Webly.ai" }],
   creator: "Webly.ai",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Webly - Create your website with AI in minutes",
-    description: "Build the fastest, AI-native website generator that turns your ideas into fully designed, SEO-ready websites in minutes.",
+    description: "Create your website with AI in minutes. Just describe your idea and watch as AI creates a beautiful, professional website in seconds.",
     url: "https://webly.ai",
     siteName: "Webly",
     locale: "en_US",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Webly - Create your website with AI in minutes",
-    description: "Build the fastest, AI-native website generator that turns your ideas into fully designed, SEO-ready websites in minutes.",
+    description: "Create your website with AI in minutes. Just describe your idea and watch as AI creates a beautiful, professional website in seconds.",
     creator: "@weblyai",
   },
   robots: {
