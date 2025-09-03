@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Webly.ai - Your idea live in 10 minutes | AI Website Generator",
+  title: "Webly - Create your website with AI in minutes",
   description: "Build the fastest, AI-native website generator that turns your ideas into fully designed, SEO-ready websites in minutes. No coding required.",
   keywords: ["AI website generator", "website builder", "landing page", "SaaS", "portfolio", "business website", "no-code"],
   authors: [{ name: "Webly.ai" }],
@@ -26,16 +26,16 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Webly.ai - Your idea live in 10 minutes",
+    title: "Webly - Create your website with AI in minutes",
     description: "Build the fastest, AI-native website generator that turns your ideas into fully designed, SEO-ready websites in minutes.",
     url: "https://webly.ai",
-    siteName: "Webly.ai",
+    siteName: "Webly",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Webly.ai - Your idea live in 10 minutes",
+    title: "Webly - Create your website with AI in minutes",
     description: "Build the fastest, AI-native website generator that turns your ideas into fully designed, SEO-ready websites in minutes.",
     creator: "@weblyai",
   },
@@ -63,7 +63,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#0f172a" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
