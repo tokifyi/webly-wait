@@ -57,8 +57,8 @@ export async function POST(request: Request) {
       message: "Successfully added to waitlist" 
     });
 
-  } catch (error) {
-    console.error("Server error:", error);
+  } catch (_error) {
+    console.error("Server error:", _error);
     return NextResponse.json(
       { error: "Internal server error" },
       { status: 500 }
