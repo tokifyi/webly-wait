@@ -34,7 +34,7 @@ export async function POST(request: Request) {
     }
 
     // Insert new email into waitlist table
-    const { error } = await supabase
+    const { error: insertError } = await supabase
       .from("waitlist")
       .insert([
         {
@@ -44,8 +44,8 @@ export async function POST(request: Request) {
         }
       ]);
 
-    if (error) {
-      console.error("Supabase error:", error);
+    if (insertError) {
+      console.error("Supabase error:", insertError);
       return NextResponse.json(
         { error: "Failed to add email to waitlist" },
         { status: 500 }
